@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge"
+        http-equiv="X-UA-Compatible">
+  <title>index</title>
+  <link crossorigin="anonymous"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        rel="stylesheet">
+  <link href="home.css"
+        rel="styl4sheet">
+</head>
+<body>
+  <header>
+    <button class="btn btn-primary"
+            type="highscores">View highscores</button>
+    <div class="time"></div>
+  </header>
+  <div id="home">
+    <h1>Test your knowledge.</h1>
+    <p>Welcome to my coding quiz!</p><br>
+    You will only have 75 seconds to complete the quiz.<br>
+    Answer wrongly and 10 seconds will be taken from your time. <button class="btn btn-primary"
+         id="startBtn"
+         onclick="startQuiz()"
+         type="quiz start">Start quiz</button>
+  </div>
+  <div class="hidden"
+       id="questions">
+    <div>
+      message
+    </div>
+  </div>
+</body>
+</html>
