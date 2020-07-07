@@ -13,6 +13,7 @@
         rel="stylesheet">
   <link href="home.css"
         rel="styl4sheet">
+  <script src="jquery-3.4.1.min.js"></script>
 </head>
 <body>
   <header>
@@ -22,11 +23,11 @@
   </header>
   <div id="home">
     <h1>Test your knowledge.</h1>
-    <p>Welcome to my coding quiz!</p><br>
+    <p>Welcome to my coding quiz!<br>
     You will only have 75 seconds to complete the quiz.<br>
-    Answer wrongly and 10 seconds will be taken from your time. <button class="btn btn-primary"
+    Answer wrongly and 10 seconds will be taken from your time.</p><button class="btn btn-primary"
          id="startBtn"
-         onclick="startQuiz()"
+         onclick='startQuiz()'
          type="quiz start">Start quiz</button>
   </div>
   <div class="hidden"
@@ -35,5 +36,7 @@
       message
     </div>
   </div>
+  <script src="script.js"></script> 
+  <script src="questions.js"></script>
 </body>
 </html>
